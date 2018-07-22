@@ -1,0 +1,196 @@
+/*
+body and html of the document css properties*/
+
+body,
+html {
+	height: 100%;
+	margin: 0;
+	font: 400 15px/1.8 "Lato", sans-serif;
+	color: #777;
+
+}
+
+
+/*
+whole div content css properties*/
+
+.body_contet {
+	margin: 0 auto;
+	overflow:auto;
+
+}
+
+
+/* three background images properties*/
+
+.header,
+.div_content1,
+.div_content2 {
+	background-attachment: fixed;
+	background-repeat: no-repeat left top;
+	height: 1000px;
+	padding: 10% 5% 0% 20%;
+	margin: 0;
+}
+
+
+/* header background images properties*/
+
+.header {
+	background-image: url("../images/season-5.jpg");
+	min-height: 100%;
+}
+
+
+/* properties for heading1&2 in header*/
+
+.border1,
+.border2 {
+	background-color: #111;
+	color: #fff;
+	box-shadow: 3px 3px 5px 10px #888888;
+}
+
+.border1 {
+	padding: 1% 1% 1% 1%;
+	text-align: center;
+	margin: 30% 25% 0% 10%;
+}
+
+
+/*properties for heading1 in header */
+
+.border2 {
+	padding: .2% 1% 1% 1%;
+	text-align: center;
+	margin: -2% 36% 0% 20%;
+	z-index: -2;
+}
+
+
+/* sticky nav colour properties*/
+
+nav {
+	color: #d9dfd1;
+	background-color: #282924;
+}
+
+
+/* sticky nav text properties*/
+
+nav {
+	font-size: 90%;
+	height: 40%;
+	padding: 2%;
+	position: -webkit-sticky;
+	position: sticky;
+	top: 0;
+}
+
+.nav_a,
+.nav_a_lastchild {
+	color: #e0e0d1;
+}
+
+
+/*sticky nav a tag properties*/
+
+.nav_a {
+	padding: 0% 7% 0% 7%;
+	text-decoration: none;
+	border-right: #b2b3ad dotted 1px;
+}
+
+
+/*sticky nav a tag active tab properties*/
+
+.nav_a_current_active {
+	color: white;
+	text-decoration: none;
+	border-right: #b2b3ad dotted 1px;
+	padding: 0% 7% 0% 7%;
+}
+
+
+/*sticky nav a tag last child properties*/
+
+.nav_a_lastchild {
+	padding: 0% 7% 0% 7%;
+	text-decoration: none;
+}
+
+
+/* div content1 background images properties*/
+
+.div_content1 {
+	background-image: url("../images/season-2.jpg");
+}
+
+
+/*div content1 paragraph1,2,3,4 properties*/
+
+.div_pcontent11,
+.div_pcontent12,
+.div_pcontent13,
+.div_pcontent14 {
+	background-color: #111;
+	color: #fff;
+	box-shadow: 3px 3px 5px 10px #888888;
+	width: 50%;
+}
+
+
+/*div content1 paragraph1 properties*/
+
+.div_pcontent11 {
+	padding: 1%;
+	text-align: center;
+	float: left;
+	margin: -10% 0% 0% -240px;
+}
+
+
+/*div content paragraph1 properties*/
+
+.div_pcontent12 {
+	margin-top: 20%;
+	padding: 1%;
+	text-align: center;
+	float: right;
+}
+
+
+/*div content paragraph1 properties*/
+
+.div_pcontent13 {
+	padding: 1%;
+	text-align: center;
+	float: left;
+	margin: 20% 0% 0% -150px;
+}
+
+
+/*div content paragraph1 properties*/
+
+.div_pcontent14 {
+	margin-top: 20%;
+	padding: 1%;
+	text-align: center;
+	float: right;
+}
+
+
+/*div content2 background image2*/
+
+.div_content2 {
+	background-image: url("../images/nature-2.jpg");
+}
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+  
+.header,
+.div_content1,
+.div_content2  {
+        background-attachment: scroll;
+    }
+}

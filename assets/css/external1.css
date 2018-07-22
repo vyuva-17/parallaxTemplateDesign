@@ -1,0 +1,306 @@
+/*
+body and html of the document css properties*/
+
+body,
+html {
+  height: 100%;
+  margin: 0;
+  font: 400 15px/1.8 "Lato", sans-serif;
+  color: #777;
+  overflow:scroll;
+}
+
+
+/* three background images properties*/
+
+.bgimg-1,
+.bgimg-2,
+.bgimg-3 {
+  position: relative;
+  opacity: 0.65;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+
+/* fixed nav color properties*/
+
+.nav {
+  color: #d9dfd1;
+  background-color: #282924;
+}
+
+
+/* fixed nav properties*/
+
+.nav {
+  font-size: 90%;
+  height: 1%;
+  padding: 2%;
+  position: -webkit-sticky;
+  position: fixed;
+  top: 0;
+  width: 100%;
+  text-align: center;
+}
+
+
+/* fixed nav atag color properties*/
+
+.nav_a,
+.nav_a_lastchild {
+  color: #e0e0d1;
+}
+
+
+/*fixed nav a tag properties*/
+
+.nav_a {
+  padding: 0% 3% 0% 3%;
+  text-decoration: none;
+  border-right: #b2b3ad dotted 1px;
+}
+
+
+/*fixed nav a tag active tab properties*/
+
+.nav_a_current_active {
+  color: white;
+  text-decoration: none;
+  border-right: #b2b3ad dotted 1px;
+  padding: 0% 3% 0% 3%;
+}
+
+
+/*fixed nav a tag last child properties*/
+
+.nav_a_lastchild {
+  padding: 0% 3% 0% 3%;
+  text-decoration: none;
+}
+
+
+/* color properties for heading1&2 in header and footer*/
+
+.border1,
+.border2 {
+  background-color: #111;
+  color: #fff;
+  box-shadow: 3px 3px 5px 10px #888888;
+}
+
+
+/*properties for heading1 in header */
+
+.border1 {
+  padding: 1% 1% 1% 1%;
+  text-align: center;
+  margin: 0% 35% 0% 35%;
+}
+
+
+/*properties for heading1 in header */
+
+.border2 {
+  padding: .2% 1% 1% 1%;
+  margin: -2% 30% 0% 30%;
+  text-align: center;
+  z-index: -2;
+}
+
+
+/*background image1 individual properties*/
+
+.bgimg-1 {
+  background-image: url("../images/nature-2.jpg");
+  min-height: 100%;
+}
+
+
+/*background image2 individual properties*/
+
+.bgimg-2 {
+  background-image: url("../images/nature-1.jpg");
+  min-height: 400px;
+  z-index: -3;
+}
+
+
+/*background image3 individual properties*/
+
+.bgimg-3 {
+  background-image: url("../images/nature-3.jpg");
+  min-height: 400px;
+  z-index: -4;
+}
+
+
+/* caption for the heading tag
+ properties in header and footer*/
+
+.caption {
+  position: absolute;
+  left: 0;
+  top: 50%;
+  width: 100%;
+  text-align: center;
+  color: #000;
+  background-position: center center;
+}
+
+
+/*div content paragraph1 background image properties*/
+
+.div_contentp1_bgimg {
+  background-image: url("../images/season-2.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat left top;
+  height: 1000px;
+  padding: 10% 5% 0% 20%;
+  margin: 0;
+}
+
+
+/* colour properties for div content1 paragraph1,2,3,4*/
+
+.div_content_p1,
+.div_content_p2,
+.div_content_p3,
+.div_content_p4 {
+  background-color: #111;
+  color: #fff;
+  box-shadow: 3px 3px 5px 10px #888888;
+  width: 50%;
+}
+
+
+/*div content paragraph1 properties*/
+
+.div_content_p1 {
+  margin: -10% 0% 0% -240px;
+  padding: 1%;
+  text-align: center;
+  float: left;
+}
+
+
+/*div content paragraph1 properties*/
+
+.div_content_p2 {
+  margin-top: 20%;
+  padding: 1%;
+  text-align: center;
+  float: right;
+}
+
+
+/*div content paragraph1 properties*/
+
+.div_content_p3 {
+  margin: 20% 0% 0% -150px;
+  padding: 1%;
+  text-align: center;
+  float: left;
+}
+
+
+/*div content paragraph1 properties*/
+
+.div_content_p4 {
+  margin-top: 20%;
+  padding: 1%;
+  text-align: center;
+  float: right;
+}
+
+
+/* color properties for heading1&2 in scalled image*/
+
+.border3,
+.border4 {
+  background-color: #111;
+  color: #fff;
+  box-shadow: 3px 3px 5px 10px #888888;
+}
+
+
+/*properties for heading1 in scalled image*/
+
+.border3 {
+  padding: 1% 1% 1% 1%;
+  margin: 0% 35% 0% 35%;
+  text-align: center;
+}
+
+
+/*properties for heading1 in scalled image*/
+
+.border4 {
+  padding: .2% .1% 1% .1%;
+  margin: -2% 25% 0% 25%;
+  text-align: center;
+  z-index: -2;
+}
+
+
+/*div content paragraph2 background image properties*/
+
+.div_contentp2_bgimg {
+  background-image: url("../images/season-2.jpg");
+  background-attachment: fixed;
+  background-repeat: no-repeat left top;
+  height: 1000px;
+  padding: 10% 5% 0% 20%;
+}
+
+
+/* colour properties for div content2 paragraph1,2,3,4*/
+
+.div_content_p21,
+.div_content_p22,
+.div_content_p23 {
+  background-color: #111;
+  color: #fff;
+  box-shadow: 3px 3px 5px 10px #888888;
+  width: 50%;
+}
+
+
+/*div content paragraph1 properties*/
+
+.div_content_p21 {
+  padding: 1%;
+  text-align: center;
+  float: left;
+  margin: -1% 0% 0% -240px;
+}
+
+
+/*div content paragraph1 properties*/
+
+.div_content_p22 {
+  margin-top: 30%;
+  padding: 1%;
+  text-align: center;
+  float: right;
+}
+
+
+/*div content paragraph1 properties*/
+
+.div_content_p23 {
+  margin-top: 30%;
+  padding: 1%;
+  text-align: center;
+  margin-left: -150px;
+  float: left;
+  margin: 30% 0% 0% -150px;
+}
+/* Turn off parallax scrolling for tablets and phones */
+@media only screen and (max-device-width: 1024px) {
+    .bgimg-1, .bgimg-2, .bgimg-3 {
+        background-attachment: scroll;
+    }
+}
